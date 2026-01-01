@@ -65,7 +65,7 @@ INSERT INTO Projects (project_id, project_name, budget, dept_id, start_date) VAL
    ========================================================= */
 
 /* =========================
-   INTERMEDIATE LEVEL (1–25)
+   INTERMEDIATE LEVEL (1â€“25)
    ========================= */
 
 -- 1. List all employees with department name
@@ -197,7 +197,7 @@ WHERE dept_id IS NULL;
 
 
 /* =========================
-   ADVANCED LEVEL (26–50)
+   ADVANCED LEVEL (26â€“50)
    ========================= */
 
 -- 26. Employee with highest salary (subquery)
@@ -369,7 +369,7 @@ LEFT JOIN Departments d ON e.dept_id = d.dept_id
 LEFT JOIN Projects p ON d.dept_id = p.dept_id;
 
 /* =========================================================
-   EXTRA ADVANCED SQL PRACTICE (51–80)
+   EXTRA ADVANCED SQL PRACTICE (51â€“80)
    REAL-WORLD + INTERVIEW SCENARIOS
    ========================================================= */
 
